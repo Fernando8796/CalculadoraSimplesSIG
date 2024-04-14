@@ -26,51 +26,51 @@ while True:
     escolha = input(mensagem)
 
     if escolha == "1":
-        num1 = int(input("Qual o primeiro número para somar?"))
+        num1 = int(input("Qual o primeiro número para somar? "))
 
-        num2 = int(input("Qual o segundo número?"))
+        num2 = int(input("Qual o segundo número? "))
 
-        result = soma(num1, num2)
+        result = num1 + num2
         print(f"O resultado é {result}")
 
     elif escolha == "2":
-        num1 = int(input("Qual o primeiro número para subtrair?"))
+        num1 = int(input("Qual o primeiro número para subtrair? "))
 
-        num2 = int(input("Qual o segundo número?"))
+        num2 = int(input("Qual o segundo número? "))
 
-        result = sub(numb1, numb2)
+        result = num1 - num2
         print(f"O resultado é {result}")
 
     elif escolha == "3":
-        num1 = int(input("Qual o primeiro número para multiplicar?"))
+        num1 = int(input("Qual o primeiro número para multiplicar? "))
 
-        num2 = int(input("Qual o segundo número?"))
+        num2 = int(input("Qual o segundo número? "))
 
-        result = mult(num1, num2)
+        result = num1 * num2
         print(f"O resultado é {result}")
 
     elif escolha == "4":
-        num1 = int(input("Qual o primeiro número para dividir?"))
+        num1 = int(input("Qual o primeiro número para dividir? "))
 
-        num2 = int(input("Qual o segundo número?"))
+        num2 = int(input("Qual o segundo número? "))
 
-        result = mult(num1, num2)
+        result = num1 / num2
         print(f"O resultado é {result}")
 
     elif escolha == "5":
-        num1 = int(input("Qual é a base?\n"))
+        num1 = int(input("Qual é a base? "))
 
-        num2 = int(input("Qual é o expoente?\n"))
+        num2 = int(input("Qual é o expoente? "))
 
-        result = poten(num1, num2)
+        result = num1 ** num2
         print(f"O resultado é {result}")
 
     elif escolha == "6":
-        num1 = int(input("Quantos porcentos?\n"))
+        num1 = int(input("Quantos porcentos? "))
 
-        num2 = int(input("De quanto?\n"))
+        num2 = int(input("De quanto? "))
 
-        result = porc(numb1, numb2)
+        result = num1/100 * num2
         print(f"O resultado é {result}")
 
     else:
