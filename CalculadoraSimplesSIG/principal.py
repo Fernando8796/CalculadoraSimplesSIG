@@ -38,12 +38,20 @@ def porc(numb1, numb2):
     resultado = numb1 * numb3
     return resultado
 
-
+mensagem = '''
+Escolha o Operador Aritimético
+[1] Somar +
+[2] Subtrair -
+[3] Multiplicar *
+[4] Dividir /
+[5] Potenciação **
+[6] Porcentagem %"
+'''
 num1 = ("Qual o primeiro número para ")
 num2 = ("Qual o segundo número?\n")
 
 while True:
-    escolha = input("Escolha o Operador Aritimético\n[1] Somar +\n[2] Subtrair -\n[3] Multiplicar *\n[4] Dividir /\n[5] Potenciação **\n[6] Porcentagem %\n")
+    escolha = input(mensagem)
 
     if escolha == "1":
 
@@ -115,3 +123,5 @@ while True:
     else:
         print("Escolha inválida")
 
+    #Chamando input para aguardar próxima operacão
+    input()
